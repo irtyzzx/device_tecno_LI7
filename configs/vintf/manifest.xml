@@ -405,7 +405,7 @@
         <fqname>@1.0::ITmsNfc/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.nfc</name>
+        <name>android.hardware.nfc_snxxx</name>
         <transport>hwbinder</transport>
         <version>1.2</version>
         <interface>
