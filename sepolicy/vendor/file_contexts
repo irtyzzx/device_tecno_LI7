@@ -49,6 +49,7 @@
 
 # NFC
 /(vendor|system\/vendor)/bin/hw/android\.hardware\.nfc@1\.2-service-tms u:object_r:hal_nfc_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android.hardware.nfc_snxxx@1.2-service u:object_r:hal_nfc_default_exec:s0
 /dev/pn54x                                                                                  u:object_r:nfc_device:s0
 /dev/pn553                                                                                  u:object_r:nfc_device:s0
 /dev/nxpnfc                                                                                 u:object_r:nfc_device:s0
