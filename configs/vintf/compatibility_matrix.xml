@@ -27,4 +27,12 @@
         <name>android.system.wifi.keystore</name>
         <version>1.0</version>
     </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.nfc_snxxx</name>
+        <version>1.2</version>
+        <interface>
+            <name>INfc</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>
